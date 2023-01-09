@@ -1,0 +1,18 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "divya03",
+    "database": "todo_db_dev",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "database": "todo_db_test",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production":{
+    "use_env_variable": "DATABASE5_URL",
+    "dialect": "postgres"
+    }
+}
